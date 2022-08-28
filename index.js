@@ -1,4 +1,4 @@
-//function generate(){
+//function generateExcuse(){
     let quien = ["el Perro", "mi Abuela", "su Tortuga", "mi pájaro"];
     let que = ["comer", "molesta", "aplastada", "roto", ];
     let cuando = ["antes de la clase", "justo a tiempo", "cuando terminé", "durante mi almuerzo", "mientras estaba orando"];
@@ -27,4 +27,4 @@ let resultado = generateExcuse(quien, que, cuando);
 console.log(resultado)
 
 
-//document.getElementById("result").innerHTML = "<h1>Nombre:</h1><div classe='alert alert-success'><h2>"+quien[rand_quien] + " " +que[rand_que]+ " "+cuando[rand_cuando]+"</h2></div>";
+//document.getElementById("result").innerHTML = quien[rand_quien] + " " +que[rand_que]+ " "+cuando[rand_cuando]+"</h2></div>";
